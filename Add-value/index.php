@@ -10,8 +10,8 @@
     <form method="post" action="" class="main">
         <div class="box">
             <h1>Add Values</h1>
-            <input type="text" name="name1" placeholder="Enter Value">
-            <input type="text" name="name2" placeholder="Enter Value">
+            <input type="text" name="name1" placeholder="Enter Value" autocomplete="off">
+            <input type="text" name="name2" placeholder="Enter Value" autocomplete= "off">
             <button type="submit">Add</button>
             <?php
             if ($_SERVER["REQUEST_METHOD"] === "POST") {
