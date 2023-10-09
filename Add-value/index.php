@@ -14,7 +14,7 @@
             <input type="text" name="name2" placeholder="Enter Value" autocomplete= "off">
             <button type="submit">Add</button>
             <?php
-            if ($_SERVER["REQUEST_METHOD"] === "POST") // check server method
+            if ($_SERVER["REQUEST_METHOD"] === "POST") 
              {
                 $num1 = $_POST["name1"];
                 $num2 = $_POST["name2"];
